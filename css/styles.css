@@ -1,0 +1,94 @@
+/* Estilos para el menú */
+ul.menu {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: #800040;
+    display: flex;
+    align-items: center;
+}
+
+ul.menu li {
+    margin-right: 20px;
+}
+
+ul.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    background-color: #7F1E57;
+}
+
+/* Estilos CSS para el formulario y la tabla */
+form {
+margin: 20px;
+}
+
+label {
+display: block;
+margin-top: 10px;
+}
+
+input[type="text"],
+select {
+width: 300px;
+height: 30px;
+}
+
+input[type="submit"] {
+margin-top: 20px;
+width: 100px;
+height: 30px;
+}
+
+table {
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+table th,
+table td {
+padding: 8px;
+border: 1px solid #ccc;
+}
+
+/* Estilos para el footer */
+footer {
+background-color: #B6B4B4;
+padding: 20px;
+text-align: center;
+font-size: 14px;
+color: #800040;
+font-weight: bold;
+margin-top: 20px;
+}
+
+.footer-left {
+float: left;
+}
+
+.footer-middle {
+display: inline-block;
+margin: 0 20px;
+}
+
+.footer-right {
+float: right;
+}
+
+/* Banner */
+
+.banner {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type=number] {
+   width: 100px;
+}
